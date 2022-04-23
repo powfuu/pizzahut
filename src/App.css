@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');  
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white !important;
+  user-select: none;
+  text-decoration: none !important;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+button,#order-b{
+    border-radius: 6px !important;
+    background-color: rgba(0,0,0,.65) !important;
+}
+button:hover,#order-b{
+    background:rgba(0,0,0,1) !important;
+}
+ul li{
+    font-size: .85em !important;
+}
+*::-webkit-scrollbar {
+    width: 5px !important;
+  }
+  *::-webkit-scrollbar-thumb {
+  background-color: rgb(160, 160, 160) !important;
+  border-radius: 12px !important;
+  }
+#side-l{
+    margin-bottom: .75em !important;
+    background:rgba(0,0,0,.65); 
+    width: 65%;
+    padding:.5em;
+    border-radius: 6px;
+    margin:0 auto;
+    transition: .6s !important;
+}
+#side-l:hover{
+    background:black !important;
+}
